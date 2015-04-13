@@ -1,3 +1,25 @@
-#result {
-    display: none;
+body {
+    background-color: #006666;
 }
+
+.container {
+    background-color: #E8AE3A;
+    border-radius: 25px;
+    width: 300px;
+}
+
+h1{
+    color: #1C3C87;
+}
+
+h5 {
+    color: #1C3C87;
+}
+
+.finishcontainer {
+    background-color: #C96817;
+    border-radius: 25px;
+    width: 175px;
+    align: right;
+}
+C96817

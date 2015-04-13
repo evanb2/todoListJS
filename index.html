@@ -10,20 +10,27 @@
   <body>
       <center>
     <div class ="container">
-    <form id='to_do'>
-        <div class="form-group">
-            <label id='task'>Enter a task:</label>
-            <input id='task' name='task' type='text'>
-        </div>
-        <button type='submit' class='btn btn-success'>Submit</button>
-    </form>
+            <h1>Task Master 8000</h1>
+          <form id='to_do'>
+              <div class="form-group">
+                  <label id='task'><h5>Enter a task:</h5></label>
+                  <input id='task' name='task' type='text' placeholder="Wash someone's dog...">
+              </div>
+             <button type='submit' class='btn btn-info'>Add</button>
+          </form>
     </div>
-    <div id="tasks">
+</center>
+    <div class='finishcontainer'>
+        <h3>Your unFinished Tasks:</h3>
+     <div id="tasks">
+     </div>
+    </div>
+        <h3>Your Completed Tasks:</h3>
+     <div id="completed">
+     </div>
 
-        <h1>Your unFinished Tasks:</h1>
 
 
-       </div>
-    </center>
+         <span class="complete"><form id="remove"></form></span>
   </body>
 </html>
