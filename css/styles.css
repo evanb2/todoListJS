@@ -3,23 +3,37 @@ body {
 }
 
 .container {
-    background-color: #E8AE3A;
+    background-color: #194884;
     border-radius: 25px;
     width: 300px;
 }
 
 h1{
-    color: #1C3C87;
+    color: #black;
+}
+
+h3 {
+    color: #2D208C;
 }
 
 h5 {
-    color: #1C3C87;
+    color: #black;
 }
 
-.finishcontainer {
-    background-color: #C96817;
+.left {
+    position: absolute;
+    left: 50px;
+    background-color: #0F8366;
     border-radius: 25px;
-    width: 175px;
-    align: right;
+    width: 300px;
+    text-align:center;
 }
-C96817
+
+.right {
+    position:absolute;
+    right: 50px;
+    background-color: #0F8366;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+}
