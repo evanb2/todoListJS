@@ -37,3 +37,12 @@ h5 {
     width: 300px;
     text-align: center;
 }
+
+.center {
+    position: absolute;
+    right: 450px;
+    background-color: #0F8366;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+}
