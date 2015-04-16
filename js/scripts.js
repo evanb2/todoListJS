@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("input#task").focus();
     $('form#to_do').submit(function(event) {
         event.preventDefault()
 
@@ -6,12 +7,14 @@ $(document).ready(function() {
         var taskObject= {task:taskInput};
         var CompletedTask={};
 
-        $("#tasks").append("<span class='task'>" + taskObject.task + "</span></br>");
+        $("#tasks").append("<li>" + taskObject.task + "</li>");
+
+        $("input#task").val("");
 
 
-        $(".task").last().click(function(){
+        $("li").last().click(function(){
             $(this).remove();
-            $(".complete").append(taskObject.task + "</br>");
+            $("#completed").append("<li>" + taskObject.task + "</li>");
             // $(".hate").click(function(){
             //     $(this).remove();
             //      $("#tasks").append("<span class='task'>" + taskObject.task + "</span></br>");
