@@ -1,5 +1,5 @@
 ###Developers
-Abeer Khakwani, Geoff WInner
+Abeer Khakwani, Geoff Winner, & Evan Butler.
 
 ###Date
 April 9, 2015<br />
@@ -8,7 +8,7 @@ April 9, 2015<br />
 Scrabble Score
 Allows users to check Scrabble scores.
 
-###Copyright (c) 2015 Abeer Khakwani, Geoff Winner
+###Copyright (c) 2015 Abeer Khakwani, Geoff Winner, & Evan Butler.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
