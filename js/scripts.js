@@ -1,31 +1,24 @@
 $(document).ready(function() {
     $("input#name").focus();
-
+//Global Variable
     var currentList = null;
-
+//Global function to display tasks
     var displayTasks = function() {
         $("ul#tasks").empty();
         currentList.tasks.forEach(function(task) {
-            $("ul#tasks").append("<li>" + "Task: " + task.task + "</li>");
+            $("ul#tasks").append("<li>" + task.task + "</li>");
         });
     }
-
+//On submit of list with a task
     $("form#create_list").submit(function(event) {
         event.preventDefault();
+//Var listname is assisned the input of the list name
+        var newlistObject = { list: $("input#name").val(), tasks: [] };
+        var newTask = { task: $("input#task").val() };
+        newlistObject.tasks.push(newTask);
 
-        var listName = $("input#name").val();
-
-        var newlistObject = { list: listName, tasks: [] };
-
-        $("#newTasks").each(function() {
-            var taskName = $(this).find("input#task").val();
-            var newTask = { task: taskName };
-            newlistObject.tasks.push(newTask);
-        });
 
         $("#lists ul").append("<li class='show-task'>" + newlistObject.list + "</li>");
-
-
         $("input#name").val("");
         $("input#task").val("");
 
@@ -43,6 +36,6 @@ $(document).ready(function() {
         var newTask = {task: newTaskName};
         currentList.tasks.push(newTask);
         displayTasks();
-
+        $("input#new_task").val("");
     });
 });

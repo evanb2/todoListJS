@@ -23,9 +23,9 @@ h5 {
 .left {
     position: absolute;
     left: 50px;
-    background-color: #0F8366;
+    background-image: url("http://cdns2.freepik.com/free-photo/_35-19405.jpg");
     border-radius: 25px;
-    width: 300px;
+    width: 450px;
     text-align:center;
 }
 
