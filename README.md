@@ -8,6 +8,14 @@ April 9, 2015<br />
 Scrabble Score
 Allows users to check Scrabble scores.
 
+Setup instructions:
+
+1. Open terminal/console and type: 'git clone https://github.com/evanb2/todoListJS'
+
+2. Open todoListJS folder and open the html file in your web browser.
+
+3. Follow the instructions on the page.
+
 ###Copyright (c) 2015 Abeer Khakwani, Geoff Winner, & Evan Butler.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
